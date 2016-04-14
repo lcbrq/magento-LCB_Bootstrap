@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <LCB_Bootstrap>
+            <version>1.0.0</version>
+        </LCB_Bootstrap>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <bootstrap>
+                    <file>lcb_bootstrap.xml</file>
+                </bootstrap>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <helpers>
+            <lcb_bootstrap>
+                <class>LCB_Bootstrap_Helper</class>
+            </lcb_bootstrap>
+        </helpers>
+        <blocks>
+            <lcb_bootstrap>
+                <class>LCB_Bootstrap_Block</class>
+            </lcb_bootstrap>
+        </blocks>
+    </global>
+</config> 

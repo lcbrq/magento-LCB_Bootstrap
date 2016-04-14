@@ -1,0 +1,44 @@
+/* 
+centered columns styles 
+@see http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-centered-columns
+*/
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+/*
+no column padding
+@see http://julienmelissas.com/no-gutter-column-trick-for-bootstrap/
+*/
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*
+same height columns
+*/
+
+.col-equal {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    background-color:#efefef;
+}
+
+.row-equal {
+    overflow: hidden; 
+}
