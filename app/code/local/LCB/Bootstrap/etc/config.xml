@@ -2,28 +2,36 @@
 <config>
     <modules>
         <LCB_Bootstrap>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
         </LCB_Bootstrap>
     </modules>
-    <frontend>
-        <layout>
-            <updates>
-                <bootstrap>
-                    <file>lcb_bootstrap.xml</file>
-                </bootstrap>
-            </updates>
-        </layout>
-    </frontend>
     <global>
         <helpers>
             <lcb_bootstrap>
                 <class>LCB_Bootstrap_Helper</class>
             </lcb_bootstrap>
         </helpers>
+        <models>
+            <lcb_bootstrap>
+                <class>LCB_Bootstrap_Model</class>
+            </lcb_bootstrap>
+        </models>
         <blocks>
             <lcb_bootstrap>
                 <class>LCB_Bootstrap_Block</class>
             </lcb_bootstrap>
         </blocks>
     </global>
+    <frontend>
+        <events>
+            <core_block_abstract_prepare_layout_before>
+                <observers>
+                    <bootstrap_includes_prepare_layout_before>
+                        <class>lcb_bootstrap/observer</class>
+                        <method>prepareLayoutBefore</method>
+                    </bootstrap_includes_prepare_layout_before>
+                </observers>
+            </core_block_abstract_prepare_layout_before>
+        </events>
+    </frontend>
 </config> 
