@@ -1,7 +1,7 @@
-app/code/local/LCB/Bootstrap                               app/code/local/LCB/Bootstrap  
-app/etc/modules/LCB_Bootstrap.xml                          app/etc/modules/LCB_Bootstrap.xml
-js/bootstrap                                               js/bootstrap
-skin/frontend/base/default/js/bracket.bootstrap.js         skin/frontend/base/default/js/bracket.bootstrap.js 
-skin/frontend/base/default/css/bootstrap.css               skin/frontend/base/default/css/bootstrap.css
-skin/frontend/base/default/css/bootstrap-theme.css         skin/frontend/base/default/css/bootstrap-theme.css
-skin/frontend/base/default/css/bracket.bootstrap.css       skin/frontend/base/default/css/bracket.bootstrap.css
+app/code/local/LCB/Bootstrap
+app/etc/modules/LCB_Bootstrap.xml
+js/bootstrap
+skin/frontend/base/default/js/bracket.bootstrap.js
+skin/frontend/base/default/css/bootstrap.css
+skin/frontend/base/default/css/bootstrap-theme.css
+skin/frontend/base/default/css/bracket.bootstrap.css

@@ -16,8 +16,8 @@ class LCB_Bootstrap_Helper_Data extends Mage_Core_Helper_Abstract {
      * @var array
      */
     protected $_js = array(
-        'jquery.js',
-        'bootstrap.js'
+        'jquery.min.js',
+        'bootstrap.min.js'
     );
 
     /**
